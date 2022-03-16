@@ -8,17 +8,17 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
-<body>
-  <div class="wrapper">
+<body class="flex-column min-100-vh">
+  <div class="navbar">
     <header>
       <h1>
         <a href="/">Just Tech News</a>
       </h1>
     </header>
-    <main>
+    <main class="col-auto">
       {{{ body }}}
     </main>
-    <footer>
+    <footer class="flex-row justify-center">
       Thanks for visiting!
     </footer>
   </div>
@@ -26,3 +26,4 @@
 </body>
 
 </html>
+<script src="/js/logout.js"></script>
