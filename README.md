@@ -1,3 +1,3 @@
 # tech-blog
 
-For this challenge, I was not given any starter code and was tasked with building a CMS-style blog site where developers will be able to publish their blog posts and comment on other developers' posts as well. This app should follow the MVC paradigm in its architectural structure, should use handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+Put a read me here
