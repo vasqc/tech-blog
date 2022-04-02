@@ -3,8 +3,13 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "engines": {
+        "node": "16.14.2"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest",
+        "start": "node server.js",
+        "seeds": "node seeds/index.js"
     },
     "repository": {
         "type": "git",
@@ -15,15 +20,19 @@
     "bugs": {
         "url": "https://github.com/vasqc/tech-blog"
     },
-    "homepage": "https://github.com/vasqc/tech-blog/blob/main/README.md",
+    "homepage": "https://github.com/vasqc/tech-blog#README.md",
     "dependencies": {
-        "bcrypt": "^4.0.1",
-        "connect-session-sequelize": "^6.1.1",
-        "dotenv": "^8.2.0",
-        "express": "^4.17.1",
-        "express-handlebars": "^3.1.0",
+        "bcrypt": "^5.0.1",
+        "connect-session-sequelize": "^7.1.2",
+        "dotenv": "^14.3.0",
+        "express": "^4.17.2",
+        "express-handlebars": "^6.0.2",
         "express-session": "^1.17.2",
+        "handlebars": "^4.7.7",
         "mysql2": "^2.3.3",
-        "sequelize": "^5.22.5"
+        "sequelize": "^6.17.0"
+    },
+    "devDependencies": {
+        "jest": "^27.4.7"
     }
 }
